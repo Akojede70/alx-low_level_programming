@@ -1,5 +1,9 @@
 ## 0x0A. C - argc, argv
 
+
+**Main.h:** The file contains the prototype to each file and functions.
+
+
 **0-whatsmyname.c:** Writing a program that prints its name, followed by a new line.
 If you rename the program, it will print the new name, without having to compile it again.
 You should not remove the path before the name of the program.
@@ -34,6 +38,3 @@ if the number of arguments passed to your program is not exactly 1, print Error,
 you should use atoi to parse the parameter passed to your program.
 If the number passed as the argument is negative, print 0, followed by a new line.
 You can use an unlimited number of coins of values 25, 10, 5, 2, and 1 cent.
-
-
-
