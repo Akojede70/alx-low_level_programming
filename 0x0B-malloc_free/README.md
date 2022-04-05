@@ -1,6 +1,9 @@
 ## malloc, free
 
 
+**Main.h:** The file contains the prototype to each file and functions.
+
+
 **0-create_array.c:** Writing a function that creates an array of chars, and initializes it with a specific char.
 Prototype: char *create_array(unsigned int size, char c);
 Returns NULL if size = 0.
