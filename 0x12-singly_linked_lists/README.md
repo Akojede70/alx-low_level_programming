@@ -40,3 +40,5 @@ You are only allowed to use the printf function.
 You are not allowed to use interrupts.
 Your program will be compiled using nasm and gcc:
 
+
+**lists.h** : The prototypes of all your functions and the prototype of the function _putchar are included in the header file called lists.h
