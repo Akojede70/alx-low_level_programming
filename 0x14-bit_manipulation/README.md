@@ -1,4 +1,4 @@
-##bit manipulation
+## bit manipulation
 
 
 **0-binary_to_uint.c:** Write a function that converts a binary number to an unsigned int.
@@ -48,3 +48,6 @@ Returns: 0 if big endian, 1 if little endian.
 **101-password:** Find the password for this program.
 Save the password in the file 101-password.
 Your file should contain the exact password, no new line, no extra space.
+
+
+**main.h:** This file contains the peototype
