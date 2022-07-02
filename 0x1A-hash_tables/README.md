@@ -1,19 +1,19 @@
 ## 0x1A. C - Hash tables
 
 
-0-hash_table_create.c: Write a function that creates a hash table.
+**0-hash_table_create.c:** Writing a function that creates a hash table.
 Prototype: hash_table_t *hash_table_create(unsigned long int size);
 where size is the size of the array.
 Returns a pointer to the newly created hash table.
 If something went wrong, your function should return NULL.
 
 
-1-djb2.c: Write a hash function implementing the djb2 algorithm.
+**1-djb2.c:** Writing a hash function implementing the djb2 algorithm.
 Prototype: unsigned long int hash_djb2(const unsigned char *str);
 You are allowed to copy and paste the function from this page.
 
 
-2-key_index.c: Write a function that gives you the index of a key.
+**2-key_index.c:** Writing a function that gives you the index of a key.
 Prototype: unsigned long int key_index(const unsigned char *key, unsigned long int size);
 where key is the key.
 and size is the size of the array of the hash table.
@@ -22,7 +22,7 @@ Returns the index at which the key/value pair should be stored in the array of t
 You will have to use this hash function for all the next tasks.
 
 
-3-hash_table_set.c: Write a function that adds an element to the hash table.
+**3-hash_table_set.c:** Writing a function that adds an element to the hash table.
 Prototype: int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 Where ht is the hash table you want to add or update the key/value to.
 key is the key. key can not be an empty string.
@@ -41,14 +41,14 @@ redescribed collides with urites.
 dram collides with vivency.
 
 
-4-hash_table_get.c: Write a function that retrieves a value associated with a key.
+**4-hash_table_get.c:** Writing a function that retrieves a value associated with a key.
 Prototype: char *hash_table_get(const hash_table_t *ht, const char *key);
 where ht is the hash table you want to look into.
 and key is the key you are looking for.
 Returns the value associated with the element, or NULL if key couldn’t be found.
 
 
-5-hash_table_print.c: Write a function that prints a hash table.
+**5-hash_table_print.c:** Writing a function that prints a hash table.
 Prototype: void hash_table_print(const hash_table_t *ht);
 where ht is the hash table.
 You should print the key/value in the order that they appear in the array of hash table.
@@ -57,12 +57,12 @@ Format: see example.
 If ht is NULL, don’t print anything.
 
 
-6-hash_table_delete.c: Write a function that deletes a hash table.
+**6-hash_table_delete.c:** Writing a function that deletes a hash table.
 Prototype: void hash_table_delete(hash_table_t *ht);
 where ht is the hash table.
 
 
-100-sorted_hash_table.c: Before you continue, please take a moment to think about it: how you would implement it if you were asked to during an interview or a job. What data structures would you use? How would it work?
+**100-sorted_hash_table.c:** Before you continue, please take a moment to think about it: how you would implement it if you were asked to during an interview or a job. What data structures would you use? How would it work?
 For this task, please:
 Read PHP Internals Book: HashTable.
 Use the same hash function.
